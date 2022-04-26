@@ -1,0 +1,61 @@
+#box{
+    background-color: #85dcb8 ;
+    border: 2px solid black;
+    position:absolute;
+    width:600px;
+    height: 400px;
+    left: 25%;
+    top:16%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px white;
+    display: flex;
+    opacity: 0.9;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+#userinput{
+      font-family: 'Oleo Script', cursive;
+      font-size: smaller;
+      padding-right: 45px;
+      width: 500px;
+  }
+  #userinput input{
+      border: 1px solid black;
+      width: 250px;
+      border-radius: 4px;
+      background-color: #d1e8e2;
+      box-shadow: 2px 2px green;
+      float: left;
+      font-family: 'Oleo Script', cursive;
+      font-style: italic;
+  }
+  #signin{
+      float: right;
+      align-self: center;
+      padding: 90px;
+      background-color:  #41b3a3;
+      border-radius: 5px;
+      font-family: 'Oleo Script', cursive;
+  }
+  .vl {
+    border-left: 3px solid green;
+    height: 400px;
+  }
+  h2{
+      font-size: 35px;
+      background-color: aquamarines;
+      font-family: 'Oleo Script', cursive;
+  }
+#button{
+    border-radius: 4px;
+    width: 100px;
+    box-shadow: 2px  2px;
+    background-color: #fbeec1;
+    font-family: 'Oleo Script', cursive;
+}

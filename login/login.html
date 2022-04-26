@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- code by Ayan khan -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <title>SIGN UP/ LOGIN</title>
+</head>
+<body>
+    <div id="main">
+        <video autoplay muted loop id="myVideo">
+            <source src="vid1.mp4" type="video/mp4">
+        </video>
+        <div id="box">
+            <div id="userinput">
+                <h2>Sign Up</h2>
+                <form name='registration'>                  
+                    <label for="userid">User id:</label><br>
+                    <input type="text" name="userid" size="12" required/><br>
+                    <label for="psw">Password</label><br>
+                    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+                    <label for="username">Name:</label><br>
+                    <input type="text" name="username" size="50" required/><br>
+                    <label for="address">Address:</label><br>
+                    <input type="text" name="address" size="50"required /><br>
+                    <label for="zip">Zip Code:</label><br>
+                    <input type="text" name="zip" required/><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email" size="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please Enter Valid Email Id" required/><br> <br>
+                    <input type="submit" style="background-color: #fbeec1;">                        
+                </form>
+            </div>
+            <div class="vl"></div>
+            <aside id="signin">
+                <h2>Sign in</h2>
+                <p>If you have already registered up</p>
+                <button id="button">Login</button>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
